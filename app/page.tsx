@@ -31,7 +31,7 @@ export default function Home() {
         className="w-screen h-screen tablet:hidden transition-all absolute inset-0 -z-10"
         priority
       />
-      <div className="w-full h-[calc(100vh-90px)] tablet:h-[calc(100vh-128px)] laptop:h-[calc(100vh-160px)] p-8  pb-12 tablet:pb-0 laptop:p-24 laptop:pr-12  flex flex-col laptop:flex-row justify-center gap-28 items-center laptop:items-end">
+      <div className="w-full h-[calc(100vh-90px)] tablet:h-[calc(100vh-128px)] laptop:h-[calc(100vh-160px)] p-8  pb-12 tablet:pb-0 laptop:p-24 laptop:pr-12  flex flex-col laptop:flex-row justify-between gap-28 items-center laptop:items-end">
         <div className="text-white flex flex-col justify-between items-center laptop:items-start gap-0 laptop:gap-6 max-w-[450px]">
           <p className="uppercase font-keezy-reg text-xl leading-6 tracking-[3.5px] text-center laptop:text-left laptop:text-[28px] laptop:leading-8 laptop:tracking-[5px] text-[#D0D6F9]">
             So, you want travel to
