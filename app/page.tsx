@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="pb-12">
       <Image
         alt="home background"
         src={desktopBg}

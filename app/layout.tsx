@@ -1,4 +1,4 @@
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 import "./globals.css";
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
 import { WebProvider } from "@/utilities/WebContext";
@@ -44,6 +44,7 @@ export default function RootLayout({
           <>
             <Navbar />
             {children}
+            <Footer />
           </>
         </WebProvider>
       </body>

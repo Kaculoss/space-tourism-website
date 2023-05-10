@@ -7,7 +7,7 @@ import { PageHeading } from "@/components";
 
 const DestinationLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className="pb-12">
       <Image
         alt="destination background"
         src={desktopBg}

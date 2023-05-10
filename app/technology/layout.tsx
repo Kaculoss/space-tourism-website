@@ -7,7 +7,7 @@ import { PageHeading } from "@/components";
 
 const TechnologyLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className="pb-12">
       <Image
         alt="technology background"
         src={desktopBg}

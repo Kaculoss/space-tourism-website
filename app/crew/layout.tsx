@@ -7,7 +7,7 @@ import { PageHeading } from "@/components";
 
 const CrewLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className="pb-12">
       <Image
         alt="crew background"
         src={desktopBg}

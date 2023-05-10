@@ -8,3 +8,4 @@ export { default as ItemValue } from "./ItemValue";
 export { default as CrewNavbar } from "./CrewNavbar";
 export { default as CrewTitleDesc } from "./CrewTitleDesc";
 export { default as TechnologyNavbar } from "./TechnologyNavbar";
+export { default as Footer } from "./Footer";
