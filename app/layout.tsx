@@ -2,6 +2,7 @@ import { Footer, Navbar } from "@/components";
 import "./globals.css";
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
 import { WebProvider } from "@/utilities/WebContext";
+import { Analytics } from "@vercel/analytics/react";
 
 const barlow = Barlow({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
             <Footer />
           </>
         </WebProvider>
+        <Analytics />
       </body>
     </html>
   );
